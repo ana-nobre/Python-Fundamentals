@@ -34,16 +34,15 @@ The player has a limited number of attempts to answer correctly.
 
 ## 🕹️ Example Questions
 
-1.  What is the capital of Egypt? → **Cairo**\
+1.  On which continent is Mount Everest located? → **Asia**\
 2.  On which continent can you see the most penguins? → **Antarctica**\
 3.  In which country is the Eiffel Tower located? → **France**\
 4.  Berlin is the capital of? → **Germany**\
 5.  From which country do the Samurais come? → **Japan**\
 6.  Where would you go if you wanted to see kangaroos? → **Australia**\
-7.  Where would you go if you wanted to see kiwis? → **New Zealand**\
+7.  n which continent is the Amazon Rainforest mainly located? → **South America**\
 8.  In which country is it a tradition to paint your face on the Day of
     the Dead? → **Mexico**\
-9.  Tikka Masala is a traditional dish from...? → **India**
 
 ## 💻 Code Examples (Key Concepts)
 
@@ -51,15 +50,17 @@ The player has a limited number of attempts to answer correctly.
 
 ``` python
 quiz = {
-    "What is the capital of Egypt?": "Cairo",
+    "On which continent is Mount Everest located?": "Asia",
+    "What is the largest country in the Americas?": "Canada",
     "On which continent can you see the most penguins?": "Antarctica",
     "In which country is the Eiffel Tower located?": "France",
     "Berlin is the capital of?": "Germany",
     "From which country do the Samurais come?": "Japan",
     "Where would you go if you wanted to see kangaroos?": "Australia",
-    "Where would you go if you wanted to see kiwis?": "New Zealand",
+    "On which continent is the Sahara Desert located?": "Africa",
     "In which country is it a tradition to paint your face on the Day of the Dead?": "Mexico",
-    "Tikka Masala is a traditional dish from...?": "India"
+    "Tikka Masala is a traditional dish from...?": "India",
+    "On which continent is the Amazon Rainforest mainly located?": "South America"
 }
 ```
 
@@ -90,7 +91,7 @@ def quiz_game(questions_dict):
 
 ------------------------------------------------------------------------
 
-# 🔤 Hangman Game
+# 🔤 Word Guessing Game
 
 A classic word-guessing game where one player chooses a secret word and
 the other tries to guess it before running out of attempts.
