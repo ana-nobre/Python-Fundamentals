@@ -1,4 +1,4 @@
-# Python Mini-Games -- Quiz & Hangman (Jupyter Notebook)
+# Python Mini-Games -- Quiz & Word Guessing (Jupyter Notebook)
 
 This repository contains two simple Python games built as learning
 projects:\
